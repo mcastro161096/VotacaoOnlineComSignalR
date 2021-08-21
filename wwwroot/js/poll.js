@@ -32,7 +32,7 @@ document.getElementById("sendButton").addEventListener("click", function (event)
     if ($('input:radio[name=myChannel]').is(':checked')) {
         var myChannelId = $('input[name=myChannel]:checked').attr('id');
         var myChannelVal = $('input[name=myChannel]:checked').val();
-        connection.invoke("SendMessage", user, message, myChannelId, myChannelVal).catch(function (err) {
+        connection.invoke("SendMessageAsync", user, message, myChannelId, myChannelVal).catch(function (err) {
             return console.error(err.toString());
         });
     } else {

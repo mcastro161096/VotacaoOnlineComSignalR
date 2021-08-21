@@ -6,33 +6,62 @@
         </div>
         <div class="col-6">&nbsp;</div>
     </div>
-    <div class="row">Vote em um dos valores abaixo&nbsp;</div>
+    <br />
+    <div class="row">Qual seu personagem favorito de The Big Bang Theory &nbsp;</div>
     <div class="row">
-        <div class="col-12">
+        <div class="col-6">
 
-            <input type="radio" name="myChannel" id="opcao1" value="Teste1" />
-            <label for="mcastro1">Matheus Castro</label>
-            <br /><span id="mcastro1Block"></span><br />
+            <input type="radio" name="myChannel" id="Leonard" value="Leonard Hofstadter" />
+            <label for="opcao1">Leonard Hofstadter</label>
+            <br /><span id="LeonardBlock"></span><br />
 
-            <input type="radio" name="myChannel" id="canalDotNet" value="Canal DotNet" />
-            <label for="mcastro2">Canal DotNet</label>
-            <br /><span id="mcastro2Block"></span><br />
+            <input type="radio" name="myChannel" id="Sheldon" value="Sheldon Cooper" />
+            <label for="opcao2">Sheldon Cooper</label>
+            <br /><span id="SheldonBlock"></span><br />
+
+            <input type="radio" name="myChannel" id="Rajesh" value="Rajesh Koothrappali" />
+            <label for="opcao3">
+                Rajesh Koothrappali
+            </label>
+            <br /><span id="RajeshBlock"></span><br />
+
+            <input type="radio" name="myChannel" id="Amy" value="Amy Farrah Fowler" />
+            <label for="opcao4">Amy Farrah Fowler</label>
+            <br /><span id="AmyBlock"></span><br />
+
+            <input type="radio" name="myChannel" id="Penny" value="Penny" />
+            <label for="opcao5">Penny</label>
+            <br /><span id="PennyBlock"></span><br />
+
+            <input type="radio" name="myChannel" id="Howard" value="Howard Wolowitz(o engenheiro)" />
+            <label for="opcao6">Howard Wolowitz(o engenheiro)</label>
+            <br /><span id="HowardBlock"></span><br />
+
+            <input type="radio" name="myChannel" id="Bernadette" value="Bernadette Rostenkowski" />
+            <label for="opcao7">Bernadette Rostenkowski</label>
+            <br /><span id="BernadetteBlock"></span><br />
+
+            <input type="radio" name="myChannel" id="Stuart" value="Stuart Bloom" />
+            <label for="opcao8">Stuart Bloom</label>
+            <br /><span id="StuartBlock"></span><br />
 
             <input type="radio" name="myChannel" id="naoPossui" value="Nenhum dos anteriores" />
-            <label for="mcastro3">Não possuo nenhum canal favorito.</label>
+            <label for="naoPossui">Nenhum dos anteriores.</label>
             <br /><span id="naoPossuiBlock"></span><br />
+        </div>
+        <div class="col-6">
+            <label for="messagesList">Resultados da votação</label>
+            <ul id="messagesList"></ul>
         </div>
     </div>
     <div class="row">
-        <div class="col-12">
+        <div class="col-6">
             <input type="button" id="sendButton" value="Vote Now" />
             <hr />
         </div>
     </div>
     <div class="row">
-        <div class="col-12">
-            <ul id="messagesList"></ul>
-        </div>
+        
     </div>
 </div>
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
